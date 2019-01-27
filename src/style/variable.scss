@@ -1,0 +1,14 @@
+$primary: orange;
+$color-pane-bg: #fafafa;
+$panel-bg: #eee;
+$border: #b8b8b8;
+@mixin lines($n) {
+  overflow: hidden;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $n;
+  word-break: break-all;
+  word-wrap: break-word;
+}

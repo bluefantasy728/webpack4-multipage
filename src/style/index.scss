@@ -1,0 +1,9 @@
+// @import "./variable.scss";
+$mainColor: orange;
+#app{
+  color: $primary;
+  transform: translateY(200px);
+}
+.other{
+  color: red;
+}
